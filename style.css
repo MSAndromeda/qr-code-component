@@ -3,6 +3,7 @@
   --clr-light-gray: hsl(212, 45%, 89%);
   --clr-grayish-blue: hsl(216, 15%, 48%);
   --clr-dark-blue: hsl(218, 44%, 22%);
+  --shadow-soft: 0px 25px 25px rgba(0, 0, 0, 0.06);
 }
 
 * {
@@ -17,7 +18,8 @@ body {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  font-size: 0.9375rem;
+  /* font-size: 0.9375rem; */
+  font-size: clamp(0.875rem, 2vw, 0.9375rem);
 }
 
 main {
@@ -43,7 +45,7 @@ article {
   /* margin: 0 1.72rem; */
   margin-inline: 1.72rem;
   /* filter: drop-shadow(rgba(0, 0, 0, 0.06) 0px 25px 25px); */
-  box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.06);
+  box-shadow: var(--shadow-soft);
 }
 
 .wrapper {
