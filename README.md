@@ -25,8 +25,8 @@ This is my solution to the [QR code component challenge on Frontend Mentor](http
 
 ### Links
 
-- Solution URL: [Add your solution URL here](https://github.com/MSAndromeda/qr-code-component)
-- Live Site URL: [Add your live site URL here](https://github.com/MSAndromeda/qr-code-component/deployments/github-pages)
+- Solution URL: [Solution URL](https://github.com/MSAndromeda/qr-code-component)
+- Live Site URL: [Live site URL](https://msandromeda.github.io/qr-code-component/)
 
 ---
 
